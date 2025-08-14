@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   </head>
   <body>
     <header class="flex space-btw px-3 mt-2">
@@ -27,7 +26,7 @@
         <div></div>
         <div></div>
     </div>  -->
-    <div class="bg-img-1">
+    <div class="bg-img-1 bord-rad-10">
       <div class="width-60 gap-1 flex flex-col mt-7">
         <p class="font-40 font-weight-400">Culinary tales by sisimi kitchen</p>
         <h1 class="font-64 font-weight-400">
@@ -47,7 +46,7 @@
 
       <div class="flex px-4 mt-2 width gap-1">
         <div class="img-container width-49">
-          <img
+          <img class=""
             src="/static/cad4794c5d3f1eb3fe193a1085122beebc2c8120.webp"
             alt=""
           />
@@ -89,8 +88,13 @@
             that shape successful careers in Lagos’s dynamic food scene. Start
             your culinary journey today!
           </p>
-          <button class="bnone bg tertiary-col-1 font-32 font-weight-400 pt-5 cursor">
-            Read more >
+          <button
+            class="bnone bg tertiary-col-1 font-16 font-weight-600 pt-5 cursor centered flex"
+          >
+            Read More <svg width="12" height="24" viewBox="0 0 12 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M10.1569 12.7116L4.49994 18.3686L3.08594 16.9546L8.03594 12.0046L3.08594 7.05463L4.49994 5.64062L10.1569 11.2976C10.3444 11.4852 10.4497 11.7395 10.4497 12.0046C10.4497 12.2698 10.3444 12.5241 10.1569 12.7116Z" fill="#1FAA59"/>
+              </svg>
+              
           </button>
         </div>
 
@@ -110,8 +114,13 @@
             perfect the cooking process, and adapt recipes for various dietary
             preferences in this comprehensive guide.
           </p>
-          <button class="bnone bg tertiary-col-1 font-32 font-weight-400 pt-5 cursor">
-            Read more >
+          <button
+            class="bnone bg tertiary-col-1 font-16 font-weight-600 pt-5 cursor centered flex"
+          >
+            Read More <svg width="12" height="24" viewBox="0 0 12 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M10.1569 12.7116L4.49994 18.3686L3.08594 16.9546L8.03594 12.0046L3.08594 7.05463L4.49994 5.64062L10.1569 11.2976C10.3444 11.4852 10.4497 11.7395 10.4497 12.0046C10.4497 12.2698 10.3444 12.5241 10.1569 12.7116Z" fill="#1FAA59"/>
+              </svg>
+              
           </button>
         </div>
       </div>
@@ -127,101 +136,175 @@
       </div>
     </section>
     <section>
-      <div class="mt-7 primary-col-1 mx-5 col-white">
+      <div class="mt-7 primary-col-1 mx-5 col-white text">
         <div class="flex flex-column gap-3 py-5 pl-8 pr-8">
-          <h2 class="font-weight-400 font-64">Becoming a Sisimi insider</h2>
-          <p class="font-weight-400 font-64">
+          <h2 class="font-weight-700 font-64">Becoming a Sisimi insider</h2>
+          <p class="font-weight-400 font-32 px-20">
             Get exclusive recipes,kitchen hacks and,early acess to new post.
             join our foodie club and level up your home - cooking game
           </p>
-          <button
-            class="p-2 bgcol-green col-white bnone w-25 bord-rad-10 f-700 font-56 mt-2 cursor"
-          >
-            Join Now
-          </button>
+          <div class="text-center">
+            <button
+              class="p-2 bgcol-green col-white bnone width-20 bord-rad-10 f-600 font-24 mt-2 cursor"
+            >
+              Join Now
+            </button>
+          </div>
         </div>
       </div>
     </section>
-    <section class="mt-7 primary-col-2 col-primary px-10 pt-8 pb-10 mx-5">
-      <h2 class="f-700 font-64">Get the inside scoop</h2>
-      <div class="flex gap-2">
+    <section
+      class="mt-7 primary-col-2 col-primary px-5 pt-8 pb-10 mx-5 text-center"
+    >
+      <h1 class="f-700 font-48">Get the inside scoop</h1>
+      <div class="flex flex-col gap-2 px-20">
         <div>
-          <p class="font-weight-400 font-24 pt-2">
+          <p class="font-weight-400 font-24 pt-1 px-3">
             Subscribe to our newsletter for the freshest news,tips and offers
             from sisimi community,Be in the known always !.
           </p>
         </div>
-        <div class="width-60 flex flex-col gap-2">
-          <input
-            class="height-3 text-center bnone font-weight-400 font-32"
-            type="text"
-            placeholder="Name"
-          />
-          <input
-            class="height-3 text-center bnone font-weight-400 font-32"
+        <div style="width: 100%;" class="flex gap-2 centered">
+          <input style="width: 60%;"
+            class="height-3 p-2 bord-rad-10 bnone font-weight-400 font-24"
             type="email"
             placeholder="Enter your Email"
           />
-          <button
-            class="primary-col-1 width-60 font-40 font-weight-400 bord-rad-10 py-2 bnone col-white cursor"
+          <svg
+            width="60"
+            height="61"
+            viewBox="0 0 60 61"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            Subscribe
-          </button>
+            <g clip-path="url(#clip0_779_414)">
+              <path
+                d="M52.3592 13.257C52.3592 13.257 52.3592 13.2804 52.3592 13.2921L38.7186 58.2781C38.5121 59.0087 38.0871 59.6588 37.5006 60.141C36.9141 60.6232 36.1941 60.9144 35.4373 60.9757C35.3295 60.9851 35.2217 60.9898 35.1139 60.9898C34.4046 60.992 33.7096 60.7912 33.1107 60.4113C32.5119 60.0313 32.0342 59.4879 31.7342 58.8452L23.2029 41.3374C23.1176 41.162 23.0891 40.9643 23.1214 40.7718C23.1538 40.5794 23.2454 40.4019 23.3834 40.264L36.9584 26.689C37.2952 26.3345 37.4802 25.8625 37.4739 25.3735C37.4676 24.8846 37.2706 24.4175 36.9249 24.0717C36.5791 23.726 36.112 23.529 35.6231 23.5227C35.1341 23.5164 34.6621 23.7014 34.3076 24.0382L20.7256 37.6132C20.5877 37.7513 20.4102 37.8428 20.2177 37.8752C20.0253 37.9075 19.8276 37.879 19.6522 37.7937L2.12793 29.2648C1.44267 28.936 0.873474 28.4068 0.495785 27.7472C0.118095 27.0877 -0.0502615 26.3289 0.0130253 25.5715C0.0763121 24.8141 0.368255 24.0938 0.850165 23.506C1.33208 22.9183 1.9812 22.4909 2.71153 22.2804L47.6975 8.63978H47.7326C48.3731 8.45983 49.05 8.45352 49.6937 8.6215C50.3375 8.78948 50.9249 9.1257 51.3959 9.59566C51.8668 10.0656 52.2042 10.6524 52.3735 11.2958C52.5428 11.9392 52.5378 12.6161 52.3592 13.257Z"
+                fill="#E64E2E"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_779_414">
+                <rect
+                  width="60"
+                  height="60"
+                  fill="white"
+                  transform="translate(0 0.5)"
+                />
+              </clipPath>
+            </defs>
+          </svg>
         </div>
       </div>
     </section>
 
-    <section class="bgcol-black col-white mx-5 mt-7 py-5 pl-5 pr-8">
-        <div class="flex gap-5">
-          <div class="flex flex-col pr-5 gap-3">
+    <section class="bgcol-black col-white">
+      <div class="mt-7 py-5 pl-5 flex space-btw">
+        <div class="w-35">
+          <div class="flex flex-col gap-2">
             <div class="flex sec-font centered gap-1 f-start">
               <img width="36px" src="/static/logo.svg" alt="" />
               <h2 class="font-weight-400 font-36">House of sisimi</h2>
             </div>
             <div>
-              <p class="font-weight-400 font-32">Dive into the world of culinary delights with <span class="sec-font font-weight-400 font-36">Sisimi</span></p>
+              <p class="font-weight-400 font-32">
+                Dive into the world of culinary delights with
+                <span class="sec-font font-weight-400 font-36">Sisimi</span>
+              </p>
             </div>
-              <h2 class="font-weight-400 font-36 sec-font pt-25">House of sisimi 2025</h2>
+            <div class="gap-1 flex flex-col">
+              <p class="font-weight-400 font-24">Follow us on social media</p>
+              <div class="flex gap-1">
+                <svg
+                  width="35"
+                  height="35"
+                  viewBox="0 0 35 35"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect width="35" height="35" rx="17.5" fill="#FF5733" />
+                  <path
+                    d="M19.2 8.375C17.9734 8.375 16.797 8.86228 15.9296 9.72963C15.0623 10.597 14.575 11.7734 14.575 13V15.575H12.1C11.976 15.575 11.875 15.675 11.875 15.8V19.2C11.875 19.324 11.975 19.425 12.1 19.425H14.575V26.4C14.575 26.524 14.675 26.625 14.8 26.625H18.2C18.324 26.625 18.425 26.525 18.425 26.4V19.425H20.922C21.025 19.425 21.115 19.355 21.14 19.255L21.99 15.855C21.9984 15.8218 21.9991 15.7872 21.992 15.7537C21.985 15.7202 21.9704 15.6888 21.9494 15.6618C21.9283 15.6348 21.9014 15.6129 21.8707 15.5979C21.84 15.5829 21.8062 15.575 21.772 15.575H18.425V13C18.425 12.8982 18.445 12.7974 18.484 12.7034C18.5229 12.6094 18.58 12.524 18.652 12.452C18.724 12.38 18.8094 12.3229 18.9034 12.284C18.9974 12.245 19.0982 12.225 19.2 12.225H21.8C21.924 12.225 22.025 12.125 22.025 12V8.6C22.025 8.476 21.925 8.375 21.8 8.375H19.2Z"
+                    fill="black"
+                  />
+                </svg>
+                <svg
+                  width="35"
+                  height="35"
+                  viewBox="0 0 35 35"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect width="35" height="35" rx="17.5" fill="#FF5733" />
+                  <path
+                    d="M12.8 7.5H21.2C24.4 7.5 27 10.1 27 13.3V21.7C27 23.2383 26.3889 24.7135 25.3012 25.8012C24.2135 26.8889 22.7383 27.5 21.2 27.5H12.8C9.6 27.5 7 24.9 7 21.7V13.3C7 11.7617 7.61107 10.2865 8.69878 9.19878C9.78649 8.11107 11.2617 7.5 12.8 7.5ZM12.6 9.5C11.6452 9.5 10.7295 9.87928 10.0544 10.5544C9.37928 11.2295 9 12.1452 9 13.1V21.9C9 23.89 10.61 25.5 12.6 25.5H21.4C22.3548 25.5 23.2705 25.1207 23.9456 24.4456C24.6207 23.7705 25 22.8548 25 21.9V13.1C25 11.11 23.39 9.5 21.4 9.5H12.6ZM22.25 11C22.5815 11 22.8995 11.1317 23.1339 11.3661C23.3683 11.6005 23.5 11.9185 23.5 12.25C23.5 12.5815 23.3683 12.8995 23.1339 13.1339C22.8995 13.3683 22.5815 13.5 22.25 13.5C21.9185 13.5 21.6005 13.3683 21.3661 13.1339C21.1317 12.8995 21 12.5815 21 12.25C21 11.9185 21.1317 11.6005 21.3661 11.3661C21.6005 11.1317 21.9185 11 22.25 11ZM17 12.5C18.3261 12.5 19.5979 13.0268 20.5355 13.9645C21.4732 14.9021 22 16.1739 22 17.5C22 18.8261 21.4732 20.0979 20.5355 21.0355C19.5979 21.9732 18.3261 22.5 17 22.5C15.6739 22.5 14.4021 21.9732 13.4645 21.0355C12.5268 20.0979 12 18.8261 12 17.5C12 16.1739 12.5268 14.9021 13.4645 13.9645C14.4021 13.0268 15.6739 12.5 17 12.5ZM17 14.5C16.2044 14.5 15.4413 14.8161 14.8787 15.3787C14.3161 15.9413 14 16.7044 14 17.5C14 18.2956 14.3161 19.0587 14.8787 19.6213C15.4413 20.1839 16.2044 20.5 17 20.5C17.7956 20.5 18.5587 20.1839 19.1213 19.6213C19.6839 19.0587 20 18.2956 20 17.5C20 16.7044 19.6839 15.9413 19.1213 15.3787C18.5587 14.8161 17.7956 14.5 17 14.5Z"
+                    fill="black"
+                  />
+                </svg>
+                <svg
+                  width="35"
+                  height="35"
+                  viewBox="0 0 35 35"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect width="35" height="35" rx="17.5" fill="#FF5733" />
+                  <path
+                    d="M18.2932 16.428L23.3562 10.5H22.1562L17.7612 15.647L14.2492 10.5H10.1992L15.5092 18.284L10.1992 24.5H11.3992L16.0412 19.064L19.7502 24.5H23.8002L18.2932 16.428ZM16.6502 18.352L16.1122 17.577L11.8312 11.41H13.6742L17.1282 16.387L17.6662 17.162L22.1572 23.632H20.3142L16.6502 18.352Z"
+                    fill="black"
+                  />
+                </svg>
+                <svg
+                  width="35"
+                  height="35"
+                  viewBox="0 0 35 35"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect width="35" height="35" rx="17.5" fill="#FF5733" />
+                  <path
+                    d="M24.959 19.2184V26.5974H20.681V19.7124C20.681 17.9824 20.062 16.8024 18.514 16.8024C17.332 16.8024 16.628 17.5984 16.319 18.3674C16.206 18.6424 16.177 19.0254 16.177 19.4104V26.5974H11.897C11.897 26.5974 11.955 14.9374 11.897 13.7284H16.177V15.5524L16.149 15.5944H16.177V15.5524C16.745 14.6774 17.76 13.4264 20.033 13.4264C22.848 13.4264 24.959 15.2664 24.959 19.2184ZM7.421 7.52539C5.958 7.52539 5 8.48539 5 9.74839C5 10.9834 5.93 11.9724 7.365 11.9724H7.393C8.886 11.9724 9.813 10.9834 9.813 9.74839C9.787 8.48539 8.886 7.52539 7.421 7.52539ZM5.254 26.5974H9.532V13.7284H5.254V26.5974Z"
+                    fill="black"
+                  />
+                </svg>
+              </div>
+            </div>
           </div>
-          
+        </div>
+        <div class="flex gap-6 pr-10">
           <div>
             <h2 class="font-weight-400 font-48">Products</h2>
             <div class="flex flex-col gap-3 pt-3">
-              <p class="font-weight-400 font-32">Meal plans</p>
-              <p class="font-weight-400 font-32">Ready to eat meals</p>
-              <p class="font-weight-400 font-32">Recipe e-book</p>
+              <p class="font-weight-400 font-20">Meal plans</p>
+              <p class="font-weight-400 font-20">Ready to eat meals</p>
+              <p class="font-weight-400 font-20">Recipe e-book</p>
             </div>
           </div>
 
           <div>
-          <h2 class="font-weight-400 font-48">Company</h2>
-          <div class="flex flex-col gap-3 pt-3">
-            <p class="font-weight-400 font-32">About</p>
-            <p class="font-weight-400 font-32">Blog</p>
-            <p class="font-weight-400 font-32">Join us</p>
-          </div>
-          </div>
-          <div>
-          <h2 class="font-weight-400 font-48">Legal</h2>
-          <div class="flex flex-col gap-3 pt-3">
-            <p class="font-weight-400 font-32">FAQs</p>
-            <p class="font-weight-400 font-32">Terms of service</p>
-            <p class="font-weight-400 font-32">Privacy policy</p>
-          </div>
-          <p class="font-weight-400 font-24 my-2">Stay Connected !</p>
-          <div>
-            <p>Follow us on social media</p>
-            <div>
-              <i class="fa-brands fa-facebook"></i>
-              <i class="fa-brands fa-instagram"></i>
-              <i class="fa-brands fa-square-x-twitter"></i>
-              <i class="fa-brands fa-linkedin bgcol-primary"></i>
+            <h2 class="font-weight-400 font-48">Company</h2>
+            <div class="flex flex-col gap-3 pt-3">
+              <p class="font-weight-400 font-20">About</p>
+              <p class="font-weight-400 font-20">Blog</p>
+              <p class="font-weight-400 font-20">Join us</p>
             </div>
-           
           </div>
+
+          <div>
+            <h2 class="font-weight-400 font-48">Legal</h2>
+            <div class="flex flex-col gap-3 pt-3">
+              <p class="font-weight-400 font-20">FAQs</p>
+              <p class="font-weight-400 font-20">Terms of service</p>
+              <p class="font-weight-400 font-20">Privacy policy</p>
+            </div>
           </div>
         </div>
-       
+      </div>
+      <div>
+        <p class="font-24 font-weight-400 text-center pb-2">
+          © House of sisimi 2025
+        </p>
+      </div>
     </section>
   </body>
 </html>

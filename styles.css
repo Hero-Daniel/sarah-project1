@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lobster&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lobster&display=swap');
     * {
             margin: 0;
             padding: 0;
@@ -11,10 +11,9 @@
             font-family: Lobster, cursive;
         }
         html{
-            /* font-size: 62.5%; */
+             /* font-size: 62.5%;  */
         /* means 1rem equivalent to 16px */
-        
-        } 
+        }
         .font-40 {
             font-size: 40px;
         }
@@ -97,6 +96,12 @@
         .px-10{
             padding: 0 10rem;
         }
+        .px-15 {
+            padding: 0 15rem;
+        }
+        .px-20 {
+            padding: 0 20rem;
+        }
         .px-3{
             padding: 0 3rem;
         }
@@ -169,6 +174,15 @@
         .pl-8 {
             padding-left: 8rem;
         }
+        .pr-1{
+            padding-right: 1rem;
+        }
+        .pr-2{
+            padding-right: 2rem;
+        }
+        .pr-3 {
+            padding-right: 3rem;
+        }
         .pr-5 {
             padding-right: 5rem;
         }
@@ -178,7 +192,9 @@
         .pr-10 {
             padding-right: 10rem;
         }
-        .p-inline
+        .p-inline-1 {
+            padding-inline: 1rem;
+        }
         .border-1{
             border: 1px solid black;
         }
@@ -246,6 +262,9 @@
         .gap-10 {
             gap: 10rem;
         }
+        .gap-6 {
+            gap: 6rem;
+        }
         .width-10 {
             width: 10%;
         }
@@ -309,6 +328,10 @@
         }
         .text {
             text-align: center;
+        }
+        /* text align * 2 take */
+        .justy {
+            align-items: center;
         }
         .grid {
             display: grid;
@@ -398,11 +421,27 @@
         .w-25{
             width: 25%;
         }
+        .w-30{
+            width: 30%;
+        }
+        .w-35{
+            width: 35%;
+        }
+        .w-40{
+            width: 40%;
+        }
         .w-60{
             width: 50%;
         }
         .w-50{
             width: 50%;
+        }
+        .w-70{
+            width: 70%;
+        }
+        .font-16
+        .f-600 {
+            font-weight: 600;
         }
         .f-700{
             font-weight: 700;
@@ -439,22 +478,4 @@
         }
         .bord-rad-10 {
             border-radius: 10px;
-        }
-        /* .test{
-            border:1px solid red;
-            width: 600px
-        }
-        .test > *{
-            border: 2px solid blue;
-            width: 100px;
-            height: 100px;
-        }
-        .test > *:nth-child(2){
-            flex-grow: 1;
-        }
-        .test > *:nth-child(3){
-            flex-grow: 2;
-        }
-        .test > *:nth-child(1){
-            flex-grow: 3;
-        } */
+        } 
