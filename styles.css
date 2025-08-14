@@ -14,13 +14,27 @@
              /* font-size: 62.5%;  */
         /* means 1rem equivalent to 16px */
         }
+        .cat::placeholder {
+                color: #B9B7B7;
+          }
+        .cat{
+            border: 2px solid #e64e2e;
+        }  
+        .cat:focus {
+            outline:none;
+        }
         .font-40 {
             font-size: 40px;
+        }
+        .font-72 {
+            font-size: 72px;
         }
         .font-weight-400 {
             font-weight: 400;
         }
-
+        .font-800 {
+            font-weight: 800;
+        }
         .bgcol-yellow{
             background-color: yellow;
         }
@@ -113,6 +127,9 @@
         }
         .px-6{
             padding: 0 6rem;
+        }
+        .pb-1 {
+            padding-bottom: 1rem;
         }
         .pb-2{
             padding-bottom: 2rem;
@@ -207,9 +224,7 @@
         .bnone {
             border: none;
         }
-       .border-col {
-            border-color: #198847;
-        }
+      
         .col-red{
             color: red;
         }
@@ -278,6 +293,9 @@
             width: 40%;
         }
         .width-60 {
+            width: 60%;
+        }
+        .width-70 {
             width: 70%;
         }
         .width-47 {
@@ -433,6 +451,7 @@
         .w-60{
             width: 50%;
         }
+        .wi
         .w-50{
             width: 50%;
         }
@@ -464,6 +483,9 @@
         .font-56 {
             font-size: 56px;
         }
+        .font-22 {
+            font-size: 22px;
+        }
         .font-weight-600 {
             font-weight: 600;
         }
@@ -479,3 +501,15 @@
         .bord-rad-10 {
             border-radius: 10px;
         } 
+        p {
+            line-height: 150%;
+        }
+        .link:hover {
+            cursor: pointer;
+            color: #E64E2E;
+        }
+        .last:hover {
+            cursor: pointer;
+            color: #ffcbc0;
+        }
+       
